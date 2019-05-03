@@ -1,0 +1,23 @@
+@import "./../themeConstants.scss";
+.Main-header {
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  background: $primary900;
+  top: 0;
+  left: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 10px 25px;
+  box-sizing: border-box;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.21);
+}
+
+.Main-logo {
+  grid-column: 1/2;
+  font-size: 48px;
+  line-height: 1;
+  color: $primary100;
+  font-family: "Lobster", cursive;
+}
