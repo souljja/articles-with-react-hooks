@@ -1,0 +1,40 @@
+@import "./../themeConstants.scss";
+.Rating-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Rating-avg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  border-radius: 6px;
+  height: 100%;
+  background: $primary50;
+  font-family: "Lobster", cursive;
+}
+
+.Rating-scale {
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.Rating-icon {
+  width: 24px;
+  height: 100%;
+  fill: $primary200;
+  &.active {
+    fill: $primary400;
+  }
+  &:hover {
+    fill: $primary600;
+    cursor: pointer;
+  }
+}
